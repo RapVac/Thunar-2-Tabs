@@ -3,5 +3,5 @@ import subprocess
 ## /run/media/partuser/xdrive/z/
 subprocess.run('thunar /run/media/partuser/xdrive/z/'.split())
 pg.click()
-pg.hotkey('ctrl', 'shift', 'p')
+pg.hotkey('ctrl', 'T')
 pg.hotkey('alt', 'home')
